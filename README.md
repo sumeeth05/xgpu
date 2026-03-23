@@ -1,20 +1,26 @@
-# Xgpu
+# 🦀 Xgpu
 
-**xgpu** is a minimal, explicit, cross-platform GPU abstraction layer for modern graphics APIs.
+A thin, explicit, cross-platform graphics API.
 
-It provides a clean and unified interface over Vulkan, DirectX 12, Metal, and other backends while staying close to the underlying hardware. xgpu is designed for developers who want full control over GPU execution without the verbosity of raw APIs or the hidden behavior of high-level frameworks.
+`xgpu` is a cross-platform graphics API that gives you near-native performance with minimal overhead. It’s designed for developers who want full control over the GPU without the complexity of raw APIs.
 
-The API is intentionally small and explicit: command encoding, resource creation, and submission are all user-driven, with no implicit state, automatic pipelines, or hidden synchronization. This ensures predictable behavior and near-native performance.
+**Backend Support:**
 
-xgpu supports both 2D and 3D rendering workflows and includes optional ray tracing through a separate module, allowing access to advanced features without overcomplicating the core API.
+- Vulkan (Linux, Windows, Android)
+- DirectX 12 (Windows)
+- Metal (macOS, iOS)
 
-This crate is not a game engine or renderer. It is a thin abstraction layer that organizes GPU work while preserving control, performance, and clarity.
+## 🌟 The Big Idea
 
-**Key features:**
+Keep the API easy to read and use, while still being close enough to the hardware to get near-native performance.
 
-- Cross-platform: Vulkan, DirectX 12, Metal (and optional fallbacks)
-- Explicit command-based API (no hidden work)
-- Minimal, consistent interface across backends
-- Near-native performance with low overhead
-- Optional ray tracing support
-- Designed for building renderers and graphics systems from scratch
+- **No Hidden Work :** If you don't tell the GPU to do it, it doesn't happen.
+- **Explicit Control :** You manage your own memory and synchronization.
+- **Modern First :** Built specifically for the "Big Three" modern APIs.
+
+## 🎯 Is this for you?
+
+- ✅ You are building a custom game engine.
+- ✅ You need Ray Tracing without the bloat.
+- ✅ You want to learn how modern GPUs actually work.
+- ❌ You want a "plug-and-play" renderer with physics and lighting included.

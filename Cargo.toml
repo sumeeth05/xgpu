@@ -3,7 +3,7 @@ name = "xgpu"
 version = "0.0.1"
 edition = "2024"
 license = "Apache-2.0"
-description = "xgpu is a minimal, explicit, cross-platform GPU abstraction layer for modern graphics APIs. (In Development)"
+description = "A thin, explicit, cross-platform graphics API. (In Development)"
 keywords = ["xgpu", "gpu", "graphics"]
 categories = ["graphics"]
 
