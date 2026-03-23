@@ -1,0 +1,10 @@
+[package]
+name = "xgpu"
+version = "0.0.1"
+edition = "2024"
+license = "Apache-2.0"
+description = "xgpu is a minimal, explicit, cross-platform GPU abstraction layer for modern graphics APIs."
+keywords = ["xgpu", "gpu", "graphics"]
+categories = ["graphics"]
+
+[dependencies]
