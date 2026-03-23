@@ -1,3 +1,5 @@
+# Xgpu
+
 **xgpu** is a minimal, explicit, cross-platform GPU abstraction layer for modern graphics APIs.
 
 It provides a clean and unified interface over Vulkan, DirectX 12, Metal, and other backends while staying close to the underlying hardware. xgpu is designed for developers who want full control over GPU execution without the verbosity of raw APIs or the hidden behavior of high-level frameworks.
