@@ -14,6 +14,7 @@ Keep the API easy to read and use, while still being close enough to the hardwar
 
 - **No Hidden Work :** If you don't tell the GPU to do it, it doesn't happen.
 - **Explicit Control :** You manage your own memory and synchronization.
+- **Raytracing Support :** A dedicated `rt/` module for modern hardware-accelerated ray tracing.
 
 ## 🎯 Is this for you?
 
